@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.list a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+
+}
+.list li{
+    list-style: none;
+    
+}
+.list ul{
+    display: flex;
+}
+.headerTop{
+    background-color: rgb(250 192 31);
+    border-bottom: 1px solid black;
+
+    
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.button{
+    background-color: black;
+    color: white!important;
+    font-family: Arial, Helvetica, sans-serif;
+    padding : 10px 20px;
+
+    border-radius: 20px;
+}
+
+.logo svg{
+    width: 150px;
+
+}
+.header{
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+}
+.body1{
+    background-color: rgb(250 192 31);
+    border-bottom: 1px solid black;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    /*выравнивает по горизонтали   */
+}
+.partleft{
+    margin-left: 17.5%;
+    margin-top: 55px;
+}
+.partleft h1{
+    font-size: 105px;
+    font-weight: 400;
+
+}
+.partleft h2{
+    font-weight: 150;
+    width: 400px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.partright img{
+    width: 600px;
+}
+.partleft a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    padding: 9px 40px;
+    margin-top: 40px;
+    display: block;
+    width: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.person .title{
+
+    display: flex;
+    align-items: center;
+
+
+}
+.person .title p{
+    font-weight: 600;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+
+}
+.personlist{
+    display: flex;
+    width: 400px;
+    margin: 10px 0;
+
+}
+.personname {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+.personname p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+.personname img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.personnumber{
+    color: rgba(228, 225, 225, 0.991);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.personcomment{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 850;
+
+    
+    font-size: 16;
+}
+.persondata{
+    font-size: 14px;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: gray;
+    margin: 10px 0;
+}
+.person{
+    margin: 47px 0;
+}
+.personinfo{
+    margin-left: 15px   ;
+}
+.personitem{
+    display: flex ;
+    flex-wrap: wrap;
+
+}
+.namesblock{
+    border-bottom: 1px solid rgb(209, 207, 207);
+}
+.functitle{
+    font-weight: 600;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.funclist1 li{
+    list-style: none;
+}
+.funclist1{
+    border-bottom: 1px solid rgb(209, 207, 207);
+    
+}
+.funclist2 li{
+    list-style: none;
+}
+.funclist1 a{
+    text-decoration: none;
+    color: rgb(209, 207, 207);
+    font-size: 13px;
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+.funclist2 a{
+    text-decoration: none;
+    color: rgb(209, 207, 207);
+    font-size: 13px; font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.scrollbar{
+    overflow: visible;
+}
+
+.body2Item {
+    padding: 30px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .body2Item .scrole {
+    width: 60%;
+    height: 1000px;
+    margin-right: 8%;
+  }
+  .body2Item .scrole .scroleItem {
+    overflow-y: scroll;
+  }
+  .body2Item .scrole .scroleItem::-webkit-scrollbar {
+    width: 0;
+  }
+  .body2Item .scrole .scroleBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .body2Item .scrole .scroleBlock .scroleInfo .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .body2Item .scrole .scroleBlock .scroleInfo .title span {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-weight: 500;
+  }
+  .body2Item .scrole .scroleBlock .scroleInfo .text {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    margin: 6px 0;
+  }
+  .body2Item .scrole .scroleBlock .scroleInfo .comment {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0;
+  }
+  .body2Item .scrole .scroleBlock .scroleInfo .data {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .body2Item .scrole .scroleBlock .scroleInfo .data span {
+    background-color: rgb(224, 222, 222);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 4px;
+    cursor: pointer;
+  }
+  .body2Item .scrole .scroleBlock .scroleInfo .data span:hover {
+    background-color: rgb(215, 211, 211);
+  }
+  .body2Item .scrole .scroleBlock .scroleInfo .data svg {
+    cursor: pointer;
+  }
+  .body2Item .function {
+    width: 30%;
+  }
+  .body2Item .function .functTitle {
+    font-weight: 600;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .body2Item .function .functlist1 {
+    width: 330px;
+    border-bottom: 1px solid rgb(171, 170, 170);
+  }
+  .body2Item .function .functlist1 ul {
+    margin: 20px 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .body2Item .function .functlist1 ul li a {
+    text-decoration: none;
+    color: rgb(80, 78, 78);
+    border: 1px solid rgb(202, 200, 200);
+    padding: 10px 10px;
+    border-radius: 5px;
+    display: block;
+    margin: 5px 5px 0 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .body2Item .function .functlist1 ul li a:hover {
+    color: black;
+    background-color: rgb(202, 200, 200);
+  }
+  .body2Item .function .funclist2 {
+    width: 370px;
+  }
+  .body2Item .function .funclist2 ul {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .body2Item .function .funclist2 ul li {
+    list-style: none;
+  }
+  .body2Item .function .funclist2 ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 20px 0 0;
+    display: block;
+  }
